@@ -19,5 +19,13 @@ variable "managed_policies" {
 
 variable "allowed_region" {
   default = "us-east-1"
-}  
+}
+
+variable aws_access_key {
+  description = "AWS Access Key"
+}
+
+variable "aws_secret_key" {
+  description = "AWS Secret Key"
+}
     
