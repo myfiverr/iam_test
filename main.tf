@@ -207,4 +207,4 @@ resource "aws_iam_account_password_policy" "strict" {
 }
 
 #Enables Security Hub for this AWS account.
-resource "aws_securityhub_account" "enable_security_hub" {}
+#resource "aws_securityhub_account" "enable_security_hub" {}
